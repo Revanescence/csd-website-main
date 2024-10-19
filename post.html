@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Single post</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="about.css">
+	<link rel="stylesheet" href="blog.css">
+	<link rel="stylesheet" href="post.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<a href="index.html">
+			<img src="img/anand-logo-blue.png" class="logo" alt="">
+			</a>
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="courses.html">Courses</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Post body starts from here -->
+	<div id="blog-container">
+		<div class="blogs blogpost">
+			<div class="post">
+				<img src="img/blog2.jpg" alt="">
+				<h3>Workshop On Discover Yourself @ AEC</h3>
+				<p>
+					Student’s Spiritual Development Club of ANAND ENGINEERING COLLEGE in collaboration with the International Society for Krishna Consciousness (ISKCON) organizes a seven days, seven hours course on “discover yourself”.
+				</p>
+
+				<p>
+					The course was prepared and Delivered by Shri Shubh Krishna Prabhuji from ISKCON. Shri SHUBH Krishna Prabhu Ji elaborated on the scientific knowledge of Geeta teaching and discusses that we should be aware of creator and creation. As the scientist can regulate the satellites similarly there is some regulation on us also. We can understand that by knowing the difference between self and body.
+				</p>
+
+				<p>
+					He attracted the attention of students to internal peace, motivation in life, the impotence of self, and many other issues related to self-realization. More than fifty students registered for the course and many of them qualified for certificates only on the bases of regular attendance and good marks for quizzes.
+				</p>  <p> Student coordinator from B. Tech. final year, Shivam Prajapati coordinated the event. Club in charge Dr. Jyoti Kulshreshtha and faculty coordinator Dr. Tarun Tayal accompanied the event.
+	                Dr. Shailendra Singh Director, AEC facilitated the successful students with certificates and prizes. He congratulates all the students and conveys best wishes for the Club.</p>
+
+				<br>
+
+				<a href="#">Read Next</a>
+			</div>
+		</div>
+	</div>
+	<!-- Post body ends from here -->
+
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Top Products</h3>
+			<li>Manage Reputation</li>
+			<li>Power Tools</li>
+			<li>Managed Website</li>
+			<li>Marketing Service</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Power Tools</h3>
+			<li>Jobs</li>
+			<li>Marketing Service</li>
+			<li>Top Products</li>
+			<li>Manage Reputation</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Power Tools</h3>
+			<li>Managed Website</li>
+			<li>Manage Reputation</li>
+			<li>Top Products</li>
+			<li>Marketing Service</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Guides</h3>
+			<li>Research</li>
+			<li>Experts</li>
+			<li>Managed Website</li>
+			<li>Marketing Service</li>
+		</div>
+
+		<div class="footer-col">
+			<h3>Newsletter</h3>
+			<p>You can trust us. we only send promo offers.</p>
+
+			<div class="subscribe">
+				<input type="email" placeholder="Your email Address">
+				<a href="#" class="yellow">SUBSCRIBE</a>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<p>
+				Copyright @ 2023 All rights reserved | This template is made by Eamonaiza 
+			</p>
+			<div class="pro-links">
+				<a href="https://www.facebook.com/AnandCampus/" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a href="https://www.instagram.com/anand.campus/" target="_blank">
+				<i class="fab fa-instagram"></i>
+			    </a>
+				<a href="https://www.linkedin.com/school/anand-engineering-college-sgi" target="_blank">
+				<i class="fab fa-linkedin-in"></i>
+			    </a>
+				<a href="https://www.youtube.com/@anandengineeringcollege9026" target="_blank">
+					<i class="fab fa-youtube"></i>
+					</a>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
